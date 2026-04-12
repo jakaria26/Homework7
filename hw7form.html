@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width,initial-scale=1" />
+      <title>Homework 7</title>
+    </head>
+    <body>
+ <header>
+      <h1>Homework 7</h1>
+      <p>JavaScript Enhancements Form</p>
+  </header>
+<main>
+  <form action="" method="post">
+    <div>
+        <label for="color-input">Change your background color!</label>
+              <input type="color" id="color-input" name="color-name">
+              <button type="button" id="color-button">Select Color</button>
+        </div>
+
+    <div>
+  <label for="font-select">Change your font </label>
+<select name="font" id="font-select">
+    <option value="">--Pick a font--</option>
+    <option value="courier">courier</option>
+    <option value="serif">serif</option>
+    <option value="sans-serif">sans-serif</option>
+    <option value="arial">arial</option>
+    <option value="monospace">monospace</option>
+    <option value="cursive">cursive</option>
+    <option value="fantasy">fantasy</option>
+    <option value="system-ui">system-ui</option>
+</select>
+
+<button type="button" id="font-button">Select Font</button>
+</div>
+
+  <div>
+  <label for="email-id">Enter your email:</label>
+  <input type="email" name="email-name" id="email-id" required>
+  </div>
+
+  <div>
+  <label>Enter your password:
+  <input type="password" name="pw-name" id="pw-id" required>
+  </label>
+          <p id="pw-message">Uppercase:X | Lowercase:X | Numbers:X | Length: X</p>
+    </div>
+<div>
+  <label>How would you rate JS (1–10)?</label>
+          <input type="number" name="rate-js" id="rate-js" min="1" max="10" step="1" required>
+</div>
+
+<div>
+          <label>Favorite JS topic </label>
+
+<div>
+          <label>
+<input type="radio" name="js-topic" id="js-topic-eventlisteners" value="events"> Events
+          </label>
+</div>
+
+          <div>
+<label>
+          <input type="radio" name="js-topic" id="js-topic-jquery" value="jquery"> jQuery
+</label>
+          </div>
+
+          <div>
+<label>
+<input type="radio" name="js-topic" id="js-topic-fetch" value="fetch"> AJAX Fetch
+          </label>
+          </div>
+
+          <div>
+          <label id="other-label">
+                <input type="radio" name="js-topic" id="js-topic-other" value="other"> Other
+          </label>
+          </div>
+          </div>
+
+          <div>
+          <label>What do you like about JS?</label>
+          <input type="text" name="js-text" id="js-text" maxlength="120">
+          </div>
+
+          <div>
+          <button type="submit" id="button">Submit</button>
+          </div>
+
+          <div>
+          <button id="counting-button" type="button">0</button>
+          </div>
+
+            </form>
+        </main>
+
+        <script src="button1.js"></script>
+        <script src="color.js"></script>
+        <script src="font.js"></script>
+        <script src="other.js"></script>
+        <script src="password.js"></script>
+
+    </body>
+</html>
+        
