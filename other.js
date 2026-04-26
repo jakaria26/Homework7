@@ -1,7 +1,6 @@
 const radioList = document.querySelectorAll('[type=radio]');
 const body = document.querySelector("body");
 const otherRadio = document.querySelector("#js-topic-other");
-const otherTopicArea = document.querySelector("#other-topic-area");
 
 for (const radioButton of radioList) {
     radioButton.addEventListener("focus", () => {
