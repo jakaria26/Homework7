@@ -1,5 +1,5 @@
-const colorButton = document.querySelector("button[id='color-button']");
+const colorButton = document.querySelector("#button-id");
 colorButton.addEventListener("click", () => {
-let colorInput = document.querySelector("input[id='color-input']").value;
-document.body.style.backgroundColor = colorInput;
+const fonstSelect = document.querySelector("#font-select").value;
+document.querySelector("body").styles.SetProperty("font-family",fontSelect) ;
 });
